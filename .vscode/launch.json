@@ -1,0 +1,29 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "newsapp (debug mode)",
+            "cwd": "newsapp",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "debug",
+            "deviceId": "android_emulator"
+        },
+        {
+            "name": "newsapp (profile mode)",
+            "cwd": "newsapp",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "deviceId": "android_emulator"
+        },
+        {
+            "name": "newsapp (release mode)",
+            "cwd": "newsapp",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "deviceId": "android_emulator"
+        }
+    ]
+}
